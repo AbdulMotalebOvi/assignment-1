@@ -1,0 +1,72 @@
+body {
+    margin: 0;
+    text-transform: capitalize;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+h1 {
+    font-size: 50px;
+}
+
+p {
+    color: rgb(214, 213, 213);
+}
+
+.top-banner {
+    background-repeat: no-repeat;
+    height: 600px;
+    background-position: center center !important;
+    background-size: cover;
+    background-image: url(images/donation0.jpg);
+}
+
+.clr {
+    color: orangered;
+}
+
+.top-banner {
+    color: #fff;
+    z-index: 1;
+    position: relative;
+}
+
+.top-banner::before {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    content: '';
+    top: 0;
+    left: 0;
+    opacity: .7;
+    background-color: rgba(0, 0, 0, 0.9);
+    z-index: -1;
+}
+
+.container {
+    display: flex;
+
+}
+
+.btn {
+    text-decoration: none;
+    background-image: linear-gradient(rgb(255, 55, 0), tomato);
+    padding: 14px 20px;
+    color: #fff;
+    letter-spacing: 2px;
+    border-radius: 10px;
+    font-weight: 700;
+}
+
+.hero_desc {
+    top: 20%;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 130px;
+}
+
+.hero_desc p {
+    width: 60%;
+    margin: 0 auto;
+    padding-bottom: 30px;
+}
