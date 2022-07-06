@@ -118,16 +118,9 @@ p {
     background-color: #faf7f7;
 }
 
-.box4 {
-    width: 40%;
-    margin-left: 5%;
-    margin-right: 5%;
-    float: left;
-    padding: 2%;
+.box:nth-child(2) {
     color: tomato;
-    border-radius: 10px;
     border: 1px solid tomato;
-    background-color: #faf7f7;
 }
 
 
@@ -205,6 +198,7 @@ p {
     border: 1px solid #fff;
 }
 
+
 .subscribe-form input {
     border: 2px solid #E1E1E1;
     height: 51.5px;
@@ -213,6 +207,7 @@ p {
     width: 40%;
     color: #2E2E2E;
     margin: 0;
+    outline: none;
     border-radius: 6px 0px 0px 6px;
 }
 
