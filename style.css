@@ -194,6 +194,9 @@ p {
     border: 1px solid #fff;
 }
 
+.subscribe-form .updates {
+    margin-bottom: 150px;
+}
 
 .subscribe-form input {
     border: 2px solid #E1E1E1;
@@ -207,8 +210,26 @@ p {
     border-radius: 6px 0px 0px 6px;
 }
 
+.bg {
+    position: relative;
+    z-index: 1;
+}
+
+.bg::after {
+    position: absolute;
+    width: 80%;
+    height: 35vh;
+    content: "";
+    top: -96px;
+    left: 10%;
+    opacity: 0.7;
+    background-color: rgb(255 237 237);
+    z-index: -1;
+}
+
+
 footer {
-    margin-top: 150px;
+    margin-top: 200px;
     padding: 40px 0px;
     text-align: center;
     background-color: #000000;
