@@ -10,7 +10,7 @@ h1 {
 }
 
 p {
-    color: #6a6a6a;
+    color: #a4a4a4;
 }
 
 .btn {
@@ -99,13 +99,14 @@ p {
 .section-title {
     font-weight: 700;
     text-align: center;
-    margin-bottom: 120px;
+    margin-bottom: 75px;
 }
 
 .amount-item {
     left: 10%;
     position: relative;
     right: 0;
+    color: #6a6a6a;
 }
 
 
@@ -215,8 +216,10 @@ p {
     border: 1px solid #fff;
 }
 
-.subscribe-form .updates {
-    margin-bottom: 150px;
+
+
+.subscribe-form.text-center.bg {
+    margin-top: 145px;
 }
 
 .subscribe-form input {
